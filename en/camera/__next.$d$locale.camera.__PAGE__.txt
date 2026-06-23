@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[484,[],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","section",null,{"className":"px-mnav-inline py-6","children":["$","header",null,{"className":"px-mnav-inline mx-auto max-w-screen-xl","children":[["$","h1",null,{"className":"font-heading text-h1 text-balance font-medium","children":"Camera"}],["$","p",null,{"className":"text-body text-sm","children":"Capture or upload."}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"y1wusza3OQLRqNQ6tzHJG"}
+4:null

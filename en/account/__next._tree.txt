@@ -1,0 +1,5 @@
+:HL["/Pokemon-web-app/_next/static/media/4c9affa5bc8f420e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Pokemon-web-app/_next/static/media/cc978ac5ee68c2b6-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Pokemon-web-app/_next/static/media/feade64dfbdd7f83-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Pokemon-web-app/_next/static/css/a83f4cb793cbdb5b.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"locale","param":{"type":"d","key":"en","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"account","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"y1wusza3OQLRqNQ6tzHJG"}
