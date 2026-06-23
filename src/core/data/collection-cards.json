@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "id": "collection-misty-psyduck",
+      "name": "Misty's Psyduck",
+      "set": "Destined Rivals",
+      "price": 55.12,
+      "currency": "€",
+      "imageSrc": "/images/mock/collection/psyduck.png",
+      "imageAlt": "Misty's Psyduck from Destined Rivals",
+      "status": "collection",
+      "condition": "raw",
+      "priceChangePercent": -2
+    },
+    {
+      "id": "collection-oshawott",
+      "name": "Oshawott",
+      "set": "White Flare",
+      "price": 42.5,
+      "currency": "€",
+      "imageSrc": "/images/mock/collection/oshawott.png",
+      "imageAlt": "Oshawott from White Flare",
+      "status": "collection",
+      "condition": "graded",
+      "priceChangePercent": 4.5
+    },
+    {
+      "id": "collection-charmander",
+      "name": "Charmander",
+      "set": "Obsidian Flames Promo",
+      "price": 189.99,
+      "currency": "€",
+      "imageSrc": "/images/mock/collection/charmander.png",
+      "imageAlt": "Charmander from Obsidian Flames Promo",
+      "status": "collection",
+      "condition": "raw",
+      "priceChangePercent": -1.2
+    },
+    {
+      "id": "collection-kingdra-ex",
+      "name": "Kingdra ex",
+      "set": "Scarlet and Violet Promo",
+      "price": 220,
+      "currency": "€",
+      "imageSrc": "/images/mock/collection/kingdra.png",
+      "imageAlt": "Kingdra ex from Scarlet and Violet Promo",
+      "status": "collection",
+      "condition": "graded",
+      "priceChangePercent": 3.8
+    },
+    {
+      "id": "wishlist-empoleon-v",
+      "name": "Empoleon V",
+      "set": "Battle Style",
+      "price": 78.3,
+      "currency": "€",
+      "imageSrc": "/images/mock/collection/empoleon.png",
+      "imageAlt": "Empoleon V from Battle Style",
+      "status": "wishlist",
+      "condition": "raw"
+    },
+    {
+      "id": "wishlist-zygarde-ex",
+      "name": "Zygarde ex",
+      "set": "Perfect Order",
+      "price": 65,
+      "currency": "€",
+      "imageSrc": "/images/mock/collection/zygarde.png",
+      "imageAlt": "Zygarde ex from Perfect Order",
+      "status": "wishlist",
+      "condition": "graded"
+    },
+    {
+      "id": "wishlist-dwebble",
+      "name": "Dwebble",
+      "set": "Black Bolt",
+      "price": 34.15,
+      "currency": "€",
+      "imageSrc": "/images/mock/collection/dwebble.png",
+      "imageAlt": "Dwebble from Black Bolt",
+      "status": "wishlist",
+      "condition": "raw"
+    },
+    {
+      "id": "wishlist-meowth",
+      "name": "Meowth",
+      "set": "Phantasmal Flames",
+      "price": 28.9,
+      "currency": "€",
+      "imageSrc": "/images/mock/collection/meowth.png",
+      "imageAlt": "Meowth from Phantasmal Flames",
+      "status": "wishlist",
+      "condition": "raw"
+    }
+  ]
+}

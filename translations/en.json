@@ -1,0 +1,239 @@
+{
+  "Metadata": {
+    "title": "Pokémon Web App",
+    "description": "Manage and explore your Pokémon card collection."
+  },
+  "SearchBar": {
+    "searchLabel": "Search your collection",
+    "clearSearch": "Clear search input",
+    "placeholders": {
+      "pokemonName": "Search by Pokémon name...",
+      "cardCondition": "Search by card condition...",
+      "firePokemon": "Find all Fire-type Pokémon...",
+      "artist": "Search by artist...",
+      "sleepingPokemon": "Find sleeping Pokémon...",
+      "setNameOrYear": "Search by set name or year..."
+    }
+  },
+  "MobileNav": {
+    "navigation": "Main navigation",
+    "home": "Home",
+    "news": "News",
+    "camera": "Camera",
+    "closeCamera": "Close",
+    "cameraOpenError": "The camera could not be opened. Allow camera access and try again.",
+    "collection": "Collection",
+    "account": "Account"
+  },
+  "Pages": {
+    "home": {
+      "title": "Home",
+      "description": "Welcome home."
+    },
+    "news": {
+      "title": "News",
+      "description": "Latest updates and articles.",
+      "filter": {
+        "ariaLabel": "Filter by category",
+        "all": "All",
+        "news": "News",
+        "fairs": "Fairs",
+        "education": "Education"
+      }
+    },
+    "collection": {
+      "title": "Collection",
+      "description": "Manage and track your Pokémon cards.",
+      "wishlistButton": "Add to wishlist",
+      "filter": {
+        "ariaLabel": "Filter by list",
+        "collection": "Collection",
+        "wishlist": "Wishlist"
+      },
+      "stats": {
+        "totalCards": "Total cards",
+        "totalValue": "Total value",
+        "sets": "Sets",
+        "graded": "Graded"
+      },
+      "conditionFilter": {
+        "ariaLabel": "Filter by condition",
+        "all": "All",
+        "graded": "Graded",
+        "raw": "Raw",
+        "advanced": "Filters"
+      }
+    },
+    "collectionDetail": {
+      "back": "Back to collection",
+      "englishFlagAlt": "English",
+      "averagePrice": "Avg. price",
+      "dexNumber": "Dex number: {number}",
+      "priceHistory": {
+        "march": "Mar",
+        "april": "Apr",
+        "may": "May"
+      },
+      "quantities": {
+        "title": "Quantities owned:",
+        "total": "Total: {count}",
+        "raw": "Raw",
+        "graded": "Graded"
+      },
+      "shop": {
+        "title": "Shop:",
+        "linkAriaLabel": "Open {name} in a new tab"
+      },
+      "otherLanguages": {
+        "title": "Other languages:"
+      },
+      "languages": {
+        "japanese": "Japanese"
+      }
+    },
+    "account": {
+      "title": "Account",
+      "description": "Profile and settings.",
+      "profile": {
+        "avatarAriaLabel": "Profile picture",
+        "cardCount": "{count} cards",
+        "memberSince": "Member since: {date}"
+      },
+      "stats": {
+        "totalScans": "Total scans",
+        "totalValue": "Total value"
+      },
+      "menu": {
+        "ariaLabel": "Account settings",
+        "editProfile": {
+          "title": "Edit profile",
+          "subtitle": "Name, email and photo"
+        },
+        "notifications": {
+          "title": "Notifications",
+          "subtitle": "Price changes and news"
+        },
+        "privacy": {
+          "title": "Privacy & security",
+          "subtitle": "Password and settings"
+        },
+        "payments": {
+          "title": "Payment methods",
+          "subtitle": "Credit cards and PayPal"
+        },
+        "help": {
+          "title": "Help & support",
+          "subtitle": "FAQ and contact"
+        }
+      },
+      "logout": "Log out"
+    },
+    "camera": {
+      "title": "Camera",
+      "description": "Capture or upload."
+    }
+  },
+  "CameraPreviewOverlay": {
+    "menuNavigation": "Camera modes",
+    "menuScan": "Scanning",
+    "menuScanAria": "Scanning mode",
+    "menuInformation": "Information",
+    "menuInformationAria": "Information mode",
+    "menuAuthenticity": "Authenticity",
+    "menuAuthenticityAria": "Authenticity mode",
+    "placeBetweenLines": "Place the card between the lines",
+    "scanTheCard": "Scan the card",
+    "closeDetail": "Close information panel",
+    "openDetail": "Open information panel",
+    "closePanel": "Close panel",
+    "openPanel": "Open panel",
+    "informationInstruction": "Click on the part you want more information about",
+    "hotspotName": "Pokémon name",
+    "hotspotAttack": "Attack",
+    "hotspotIllustrator": "Set name and number",
+    "hotspotCardNumber": "Card number",
+    "setDetail": {
+      "title": "Set name and number",
+      "setCode": "ASC",
+      "setLang": "EN",
+      "cardNumber": "039/217",
+      "setName": "Ascended heroes",
+      "intro": "The abbreviation ASC at the bottom of your card stands for the set Ascended Heroes. This is a set released in early 2026 as part of the Mega Evolution series.",
+      "setCodeLabel": "The set code (ASC):",
+      "setCodeBody": "This lets you see at a glance which series the card comes from.",
+      "numberLabel": "The number (039/217):",
+      "numberBody": "This tells you exactly which card this is within the full set. In this case, it is card number 39 of the 217 cards officially in the set."
+    },
+    "recentScans": "Recent scans",
+    "authenticityScanFront": "Scan the front of the card",
+    "authenticityScanBack": "Scan the back of the card",
+    "authenticityContinue": "Continue",
+    "authenticityResult": {
+      "frontLabel": "Front",
+      "backLabel": "Back",
+      "title": "Oh No!",
+      "intro": "This card is unfortunately not genuine.",
+      "details": "We have checked the details and found a few things that don't match the official version. Especially the font and the way the card glints are different. Don't panic, this happens to the best collectors as well. Below are the details:",
+      "scannedCardCaption": "(Scanned card)",
+      "officialFontCaption": "(Official Pokémon font)",
+      "hpLabel": "HP",
+      "hpValue": "70",
+      "whatNow": "What now?",
+      "whatNowOnlineLabel": "If you bought this card online:",
+      "whatNowOnlineBody": "Contact customer service right away. Use a screenshot of this scan as proof to get your money back.",
+      "whatNowFairLabel": "If you bought this card at a fair or market stall:",
+      "whatNowFairBody": "Go back to the seller. Calmly show the differences in this app; most sellers want to keep their good name and will sort it out for you.",
+      "whatNowTradeLabel": "If you got this card through a trade with a friend:",
+      "whatNowTradeBody": "Use this as a learning moment for both of you. Show where the font or shine differs so you will not be fooled next time.",
+      "whatNowTipLabel": "My most important tip:",
+      "whatNowTipBody": "Never sell or trade this card as a genuine card. Use it for arts and crafts instead, or keep it as comparison material, so we keep the hobby honest together!"
+    }
+  },
+  "HomepageCarousel": {
+    "title": "Cards spotlight",
+    "subtitle": "Fun cards under €10",
+    "carouselLabel": "Card spotlight carousel",
+    "paginationLabel": "Carousel slides",
+    "selectCard": "Show {name}",
+    "goToSlide": "Go to slide {number}",
+    "wishlist": "Add to wishlist"
+  },
+  "HomepageNewInn": {
+    "subheading": "New in",
+    "productName": "Ascended Heroes ETB",
+    "cta": "Check now at pocketgames.nl",
+    "ctaAriaLabel": "Check Ascended Heroes ETB at Pocket Games",
+    "imageAlt": "Mega Evolution Ascended Heroes Elite Trainer Box"
+  },
+  "HomepageTrending": {
+    "title": "Trending",
+    "subtitle": "New set announced",
+    "productName": "Chaos Rising",
+    "imageAlt": "Chaos Rising Elite Trainer Box"
+  },
+  "HomepageBudgetScout": {
+    "title": "Budget Scout",
+    "subtitle": "Cards that have dropped significantly in price",
+    "cardImageAlt": "Snorlax Pokémon card",
+    "discountLabel": "-40%",
+    "discountStickerAriaLabel": "40 percent discount",
+    "wishlist": "Add to wishlist",
+    "discountPrice": "From € 10.00 to € 6.00"
+  },
+  "HomepageCollection": {
+    "title": "Your collection",
+    "growth": "+{percent}%",
+    "collectionComplete": "Collection complete",
+    "completionPercent": "{percent}%",
+    "viewCollection": "View your collection"
+  },
+  "CardScanModal": {
+    "title": "Card detected",
+    "close": "Close modal",
+    "addToCollection": "Add to collection",
+    "averagePrice": "Avg. price",
+    "dexNumber": "Dex number",
+    "scanNextCard": "Scan next card",
+    "wishlist": "Add to wishlist"
+  }
+}

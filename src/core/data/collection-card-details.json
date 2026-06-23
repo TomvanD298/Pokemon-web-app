@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "cardId": "collection-misty-psyduck",
+      "averagePrice": 67.74,
+      "priceChangePercent": 4.41,
+      "priceHistory": [
+        { "price": 45.58 },
+        { "price": 46.8 },
+        { "price": 45.7 },
+        { "price": 46.2 },
+        { "price": 47.0 },
+        { "price": 50.0 },
+        { "price": 53.75 },
+        { "price": 52.9 },
+        { "price": 56.1 },
+        { "price": 47.5 },
+        { "price": 55.0 },
+        { "price": 64.0 },
+        { "price": 68.0 },
+        { "price": 67.6 }
+      ],
+      "setCode": "DRI",
+      "rarity": "Common",
+      "cardNumber": "193/182",
+      "dexNumber": "0054",
+      "quantities": {
+        "raw": 1,
+        "graded": 0
+      },
+      "shopLinks": [
+        {
+          "id": "cardmarket",
+          "name": "cardmarket",
+          "href": "https://www.cardmarket.com/"
+        },
+        {
+          "id": "ebay",
+          "name": "ebay",
+          "href": "https://www.ebay.com/"
+        }
+      ],
+      "otherLanguages": [
+        {
+          "id": "japanese",
+          "languageLabelKey": "japanese",
+          "price": 28,
+          "currency": "€",
+          "imageSrc": "/images/mock/collection/psyduck.png",
+          "imageAlt": "Misty's Psyduck Japanese print"
+        }
+      ]
+    }
+  ]
+}

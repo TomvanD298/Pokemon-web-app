@@ -1,0 +1,45 @@
+[data-theme='light'] {
+    color-scheme: light;
+
+    --tc-background-light-primary: #f1f1f1;
+    --tc-background-light-secondary: #fff;
+    --tc-primary-lime: #daff02;
+    --tc-primary-purple: #4d42c6;
+    --tc-primary-pink: #f8ceeb;
+    --tc-secondary-purple: #8276ff;
+    --tc-purple-gradient: linear-gradient(
+        180deg,
+        rgb(77 66 198 / 100%) 0%,
+        rgb(77 66 198 / 80%) 100%
+    );
+
+    --tc-tag: rgb(237 237 237);
+    --tc-red: rgb(168 0 0);
+    --tc-green: rgb(32 136 37);
+    --tc-gradient-sticker: linear-gradient(
+        145deg,
+        #f5d4f8 0%,
+        #e8dcfc 18%,
+        #f8fcff 38%,
+        #eefaff 48%,
+        #d4f4f8 62%,
+        #b8f0e8 82%,
+        #c8f8dc 100%
+    );
+    --tc-gradient-radial: radial-gradient(
+        circle at center,
+        #feb0fe 0%,
+        #abb3fc 24%,
+        #58c4f6 48%,
+        #2ad0ca 76%,
+        #5df7a4 100%
+    );
+    --tc-gradient-conic: conic-gradient(
+        from 0deg at 50% 50%,
+        #feb0fe 0deg,
+        #abb3fc 86deg,
+        #58c4f6 173deg,
+        #2ad0ca 274deg,
+        #5df7a4 360deg
+    );
+}

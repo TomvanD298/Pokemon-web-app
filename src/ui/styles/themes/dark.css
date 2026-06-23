@@ -1,0 +1,17 @@
+[data-theme='dark'] {
+    color-scheme: dark;
+
+    --tc-background-primary: rgb(28 26 31);
+    --tc-text-primary: rgb(255 255 255);
+    --tc-text-secondary: rgb(156 155 157);
+    --tc-text-tertiary: rgb(81 80 83);
+    --tc-text-quaternary: rgb(214 214 214);
+    --tc-text-quinary: rgb(81 80 83);
+    --tc-modal-background: rgb(56 54 58);
+    --tc-input-border: rgb(156 155 157);
+    --tc-decoration: rgb(56 54 58);
+    --tc-tag: rgb(56 54 58);
+    --tc-error: rgb(251 43 24);
+    --tc-success: rgb(18 151 35);
+    --tc-outline: rgb(255 255 255);
+}
