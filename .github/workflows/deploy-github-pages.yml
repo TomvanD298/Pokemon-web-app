@@ -20,6 +20,14 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
+            - name: Configure GitHub Pages
+              uses: actions/configure-pages@v5
+
+            - name: Use GitHub Actions for Pages builds
+              env:
+                  GH_TOKEN: ${{ github.token }}
+              run: gh api "repos/${{ github.repository }}/pages" -X PUT -f build_type=workflow
+
             - uses: actions/setup-node@v4
               with:
                   node-version: 22
@@ -32,6 +40,9 @@ jobs:
                   BASE_PATH: /${{ github.event.repository.name }}
                   NEXT_OUTPUT: export
               run: npm run build
+
+            - name: Disable Jekyll
+              run: touch out/.nojekyll
 
             - uses: actions/upload-pages-artifact@v3
               with:
