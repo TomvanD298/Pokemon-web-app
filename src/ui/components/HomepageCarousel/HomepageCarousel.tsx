@@ -6,11 +6,12 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { useTranslations } from 'next-intl';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import cn from '@/core/utils/cn';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import Button from '@/ui/components/Button/Button';
 import HomepageCardHeader from '@/ui/components/HomepageCardHeader/HomepageCardHeader';
 import WishlistButton from '@/ui/components/WishlistButton/WishlistButton';
 
-const MOCK_IMAGE_BASE = '/images/mock/homepage';
+const MOCK_IMAGE_BASE = publicAssetPath('/images/mock/homepage');
 
 export type HomepageCarouselCard = {
     id: string;

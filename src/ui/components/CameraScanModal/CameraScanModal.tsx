@@ -3,13 +3,18 @@
 import type { FC } from 'react';
 import { useTranslations } from 'next-intl';
 import cn from '@/core/utils/cn';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import ActionButton from '@/ui/components/ActionButton/ActionButton';
 import WishlistButton from '@/ui/components/WishlistButton/WishlistButton';
 import CloseModalButton from '@/ui/components/CloseModalButton/CloseModalButton';
 import Text from '@/ui/components/Text/Text';
 
-const MOCK_CARD_IMAGE_SRC = '/images/mock/camera-scan/card-psyduck.png';
-const MOCK_SET_FLAG_SRC = '/images/mock/camera-scan/set-flag.png';
+const MOCK_CARD_IMAGE_SRC = publicAssetPath(
+    '/images/mock/camera-scan/card-psyduck.png',
+);
+const MOCK_SET_FLAG_SRC = publicAssetPath(
+    '/images/mock/camera-scan/set-flag.png',
+);
 
 type ScannedCard = {
     cardNumber: string;

@@ -4,13 +4,18 @@ import type { FC } from 'react';
 import { useTranslations } from 'next-intl';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import cn from '@/core/utils/cn';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import ActionButton from '@/ui/components/ActionButton/ActionButton';
 import CameraAuthenticityResult from '@/ui/components/CameraAuthenticityResult/CameraAuthenticityResult';
 import SlideUpPanel from '@/ui/components/SlideUpPanel/SlideUpPanel';
 import Text from '@/ui/components/Text/Text';
 
-const MOCK_FRONT_PHOTO_SRC = '/images/mock/camera-scan/psyduck-info.jpeg';
-const MOCK_BACK_PHOTO_SRC = '/images/mock/camera-scan/back-card.jpeg';
+const MOCK_FRONT_PHOTO_SRC = publicAssetPath(
+    '/images/mock/camera-scan/psyduck-info.jpeg',
+);
+const MOCK_BACK_PHOTO_SRC = publicAssetPath(
+    '/images/mock/camera-scan/back-card.jpeg',
+);
 const SCAN_DELAY_MS = 1000;
 
 type AuthenticityStep = 'front' | 'back' | 'result';

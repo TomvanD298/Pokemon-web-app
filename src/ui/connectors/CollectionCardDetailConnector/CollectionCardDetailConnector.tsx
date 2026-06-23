@@ -3,13 +3,16 @@
 import { useTranslations } from 'next-intl';
 import { type FC, useMemo } from 'react';
 import type { CollectionCardDetailView } from '@/core/services/fetchers';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import CollectionCardDetailHero from '@/ui/components/CollectionCardDetailHero/CollectionCardDetailHero';
 import CollectionCardDetailInfo from '@/ui/components/CollectionCardDetailInfo/CollectionCardDetailInfo';
 import CollectionCardDetailOtherLanguages from '@/ui/components/CollectionCardDetailOtherLanguages/CollectionCardDetailOtherLanguages';
 import CollectionCardDetailQuantities from '@/ui/components/CollectionCardDetailQuantities/CollectionCardDetailQuantities';
 import CollectionCardDetailShopLinks from '@/ui/components/CollectionCardDetailShopLinks/CollectionCardDetailShopLinks';
 
-const ENGLISH_SET_FLAG_SRC = '/images/mock/camera-scan/set-flag.png';
+const ENGLISH_SET_FLAG_SRC = publicAssetPath(
+    '/images/mock/camera-scan/set-flag.png',
+);
 
 const LANGUAGE_FLAGS: Record<'japanese', string> = {
     japanese: '🇯🇵',

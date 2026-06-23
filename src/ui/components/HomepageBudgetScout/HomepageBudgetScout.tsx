@@ -1,11 +1,14 @@
 import type { FC } from 'react';
 import { getTranslations } from 'next-intl/server';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import DiscountSticker from '@/ui/components/DiscountSticker/DiscountSticker';
 import HomepageCardHeader from '@/ui/components/HomepageCardHeader/HomepageCardHeader';
 import Text from '@/ui/components/Text/Text';
 import WishlistButton from '@/ui/components/WishlistButton/WishlistButton';
 
-const CARD_IMAGE_SRC = '/images/mock/homepage/card-snorlax.png';
+const CARD_IMAGE_SRC = publicAssetPath(
+    '/images/mock/homepage/card-snorlax.png',
+);
 
 const HomepageBudgetScout: FC = async () => {
     const t = await getTranslations('HomepageBudgetScout');

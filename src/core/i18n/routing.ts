@@ -1,9 +1,9 @@
 import { defineRouting } from 'next-intl/routing';
-import { LOCALES } from '@/core/constants/locales';
+import { DEFAULT_LOCALE, LOCALES } from '@/core/constants/locales';
 
 export const routing = defineRouting({
     locales: LOCALES,
-    defaultLocale: LOCALES[0],
+    defaultLocale: DEFAULT_LOCALE,
     localePrefix: 'always',
     localeDetection: false,
 });

@@ -4,9 +4,12 @@ import type { FC } from 'react';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslations } from 'next-intl';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import Text from '@/ui/components/Text/Text';
 
-const CARD_HP_IMAGE_SRC = '/images/mock/camera-scan/card-hp.jpg';
+const CARD_HP_IMAGE_SRC = publicAssetPath(
+    '/images/mock/camera-scan/card-hp.jpg',
+);
 
 const CameraAuthenticityCardComparison: FC = () => {
     const t = useTranslations('CameraPreviewOverlay.authenticityResult');

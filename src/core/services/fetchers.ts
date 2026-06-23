@@ -13,8 +13,10 @@ import {
 } from '@/core/schemas/collectionCardsSchema';
 import {
     type NewsAndFairsData,
+    type NewsItem,
     newsAndFairsDataSchema,
 } from '@/core/schemas/newsAndFairsSchema';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 
 export type CollectionCardDetailView = {
     card: CollectionCard;
@@ -22,11 +24,26 @@ export type CollectionCardDetailView = {
 };
 
 export const getCollectionCardsData = async (): Promise<CollectionCardsData> =>
-    collectionCardsDataSchema.parse(collectionCardsJson);
+    collectionCardsDataSchema.parse({
+        ...collectionCardsJson,
+        items: collectionCardsJson.items.map(item => ({
+            ...item,
+            imageSrc: publicAssetPath(item.imageSrc),
+        })),
+    });
 
 export const getCollectionCardDetailsData =
     async (): Promise<CollectionCardDetailsData> =>
-        collectionCardDetailsDataSchema.parse(collectionCardDetailsJson);
+        collectionCardDetailsDataSchema.parse({
+            ...collectionCardDetailsJson,
+            items: collectionCardDetailsJson.items.map(item => ({
+                ...item,
+                otherLanguages: item.otherLanguages.map(language => ({
+                    ...language,
+                    imageSrc: publicAssetPath(language.imageSrc),
+                })),
+            })),
+        });
 
 export const getCollectionCardDetail = async (
     cardId: string,
@@ -58,4 +75,18 @@ export const getCollectionCardDetailIds = async (): Promise<string[]> => {
 };
 
 export const getNewsAndFairsData = async (): Promise<NewsAndFairsData> =>
-    newsAndFairsDataSchema.parse(newsAndFairsJson);
+    newsAndFairsDataSchema.parse({
+        ...newsAndFairsJson,
+        items: newsAndFairsJson.items.map(item => {
+            if (item.category !== 'news') {
+                return item;
+            }
+
+            const newsItem = item as NewsItem;
+
+            return {
+                ...newsItem,
+                imageSrc: publicAssetPath(newsItem.imageSrc),
+            };
+        }),
+    });

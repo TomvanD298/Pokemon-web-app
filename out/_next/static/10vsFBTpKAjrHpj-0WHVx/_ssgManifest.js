@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F[locale]","\u002F[locale]\u002Faccount","\u002F[locale]\u002Fcamera","\u002F[locale]\u002Fcollection","\u002F[locale]\u002Fcollection\u002F[cardId]","\u002F[locale]\u002Fnews"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

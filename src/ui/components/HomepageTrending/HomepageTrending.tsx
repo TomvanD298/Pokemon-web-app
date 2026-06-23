@@ -1,9 +1,12 @@
 import type { FC } from 'react';
 import { getTranslations } from 'next-intl/server';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import HomepageCardHeader from '@/ui/components/HomepageCardHeader/HomepageCardHeader';
 import Text from '@/ui/components/Text/Text';
 
-const TRENDING_IMAGE_SRC = '/images/mock/homepage/chaos-etb.png';
+const TRENDING_IMAGE_SRC = publicAssetPath(
+    '/images/mock/homepage/chaos-etb.png',
+);
 
 const HomepageTrending: FC = async () => {
     const t = await getTranslations('HomepageTrending');

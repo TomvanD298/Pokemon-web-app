@@ -4,13 +4,16 @@ import type { FC } from 'react';
 import { useTranslations } from 'next-intl';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import cn from '@/core/utils/cn';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import ActionButton from '@/ui/components/ActionButton/ActionButton';
 import CameraInformationDetail from '@/ui/components/CameraInformationDetail/CameraInformationDetail';
 import CameraInformationHotspot from '@/ui/components/CameraInformationHotspot/CameraInformationHotspot';
 import SlideUpPanel from '@/ui/components/SlideUpPanel/SlideUpPanel';
 import Text from '@/ui/components/Text/Text';
 
-const MOCK_CARD_PHOTO_SRC = '/images/mock/camera-scan/psyduck-info.jpeg';
+const MOCK_CARD_PHOTO_SRC = publicAssetPath(
+    '/images/mock/camera-scan/psyduck-info.jpeg',
+);
 const PHOTO_DELAY_MS = 1000;
 const BOUNCE_ENTER_MS = 600;
 const HOTSPOT_STAGGER_MS = 120;

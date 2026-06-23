@@ -1,9 +1,12 @@
 import type { FC } from 'react';
 import { getTranslations } from 'next-intl/server';
+import publicAssetPath from '@/core/utils/publicAssetPath';
 import ActionLink from '@/ui/components/ActionLink/ActionLink';
 import Text from '@/ui/components/Text/Text';
 
-const NEW_IN_IMAGE_SRC = '/images/mock/homepage/ascended-etb.png';
+const NEW_IN_IMAGE_SRC = publicAssetPath(
+    '/images/mock/homepage/ascended-etb.png',
+);
 const POCKETGAMES_URL = 'https://pocketgames.nl';
 
 const HomepageNewInn: FC = async () => {
